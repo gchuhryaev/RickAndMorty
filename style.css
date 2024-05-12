@@ -1,0 +1,28 @@
+body {
+    background-color:rgb(3, 9, 18);
+}
+.character_list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    list-style-type: none;
+    justify-content: flex-start;
+}
+.cList {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 225px;
+    background-color: rgb(8, 30, 49);
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+.img {
+    max-width: 150px;
+    max-height: 150px;
+    padding-left: 15px;
+}
+.txt {
+    color: aliceblue;
+    padding-left: 15px;
+}
